@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data e hora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="timer" class="timer">
+    <div id="div_data"></div>
+    <div id="div_relogio" class="div_relogio">00:00:00</div>
+    <div id="def_relogio" class="def_relogio">
+        <label id="hora_alarme">Hora do Alarme</label><br/>
+        <label>Tempo do alarme (segundos)</label>
+        <input type="number" name="alarme" id="tmp_alarme" value="0" min="0">
+    </div>
+    <div id="comandos" class="comandos">
+        <button id="btn_ativar">Ativar</button>
+        <button id="btn_parar">Parar</button>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

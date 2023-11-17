@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICAR IDADE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>VERIFICAR IDADE</h1>
+    </header>
+    <section>
+        <div>
+            <p><strong>Ano de nascimento:</strong>
+            <input type="number" name="infoano" id="infoano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha seus dados acima para verificar!
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; JoiceClemente</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

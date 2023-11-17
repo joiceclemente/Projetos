@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicinamento de imagens</title>
+    <style>
+        body {
+            height: 100vh; /*para dizer que é a tela toda*/
+            background-color: black;
+            text-align: center;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover; /* no caso do "cover" para não cortar ou alterar a imagem e ela ficar do tamanho que a tela estiver, pode não mostrar a imagem toda, mas tambem não distorce e aparece na tela inteira, mas se o conteudo (nesse caso o lorem) crescer a imagem não acompanha....o cover junto com o fix abaixo faz com que iso não aconteça*/
+            background-attachment: fixed;
+        }
+
+        /* short hand: backgound > color > position > repeat > SIZE (esse não funciona bem dentro da short hand entao tem que colocar depois) > attachament */
+        main {
+            background-color: white;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 2px solid darkblue;
+            border-radius: 20px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagens de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae cum repudiandae? Corporis quisquam quas totam, veniam ab beatae itaque cupiditate quibusdam, animi molestias reprehenderit molestiae! Eos dolores facere eum.</p>
+    </main>
+</body>
+</html>
