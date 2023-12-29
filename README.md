@@ -1,7 +1,7 @@
 # Projetos
  Projetos desenvolvidos duranto o estudo de HTML, CSS e JavaScript
 
-[Clima das cidades - Usando API](https://joiceclemente.github.io/Projetos/clima%20das%20cidades/)<br>
+[Clima das cidades - Usando API](https://joiceclemente.github.io/Projetos/clima%20das%20cidades/)  
 [Jogo da Velha](https://joiceclemente.github.io/Projetos/jogo%20da%20velha/)<br>
 [Bateria](https://joiceclemente.github.io/Projetos/bateria/)<br>
 [Cabeçalho animado e responsivo](https://joiceclemente.github.io/Projetos/cabeçalho/)<br>
